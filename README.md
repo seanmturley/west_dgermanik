@@ -12,7 +12,7 @@ A keyboard for the Wést Dgermánik orthography, designed to maximise ergonomics
 
 See [LICENSE.md](LICENSE.md)
 
-## Supported Platforms
+## Supported platforms
 
 - Android
 - iOS

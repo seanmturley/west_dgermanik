@@ -1,7 +1,7 @@
 store(&VERSION) '17.0'
 store(&NAME) 'Wést Dgermánik'
 store(&COPYRIGHT) 'Copyright © Sean Turley'
-store(&KEYBOARDVERSION) '0.1.1'
+store(&KEYBOARDVERSION) '0.2.0'
 store(&TARGETS) 'mobile tablet web'
 store(&LAYOUTFILE) 'west_dgermanik.keyman-touch-layout'
 

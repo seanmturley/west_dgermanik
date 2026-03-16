@@ -1,4 +1,8 @@
-# Wést Dgermánik Change History
+# Wést Dgermánik change history
+
+## 0.2.0 (17 Mar 2026)
+
+- Shift layer implemented
 
 ## 0.1.1 (16 Mar 2026)
 
