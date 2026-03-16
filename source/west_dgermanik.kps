@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Package>
+  <System>
+    <KeymanDeveloperVersion>17.0.335.0</KeymanDeveloperVersion>
+    <FileVersion>7.0</FileVersion>
+  </System>
+  <Options>
+    <ExecuteProgram />
+    <ReadMeFile>readme.htm</ReadMeFile>
+    <LicenseFile>..\LICENSE.md</LicenseFile>
+    <MSIFileName />
+    <MSIOptions />
+    <FollowKeyboardVersion />
+  </Options>
+  <StartMenu>
+    <Folder />
+    <Items />
+  </StartMenu>
+  <Info>
+    <Name URL="">Wést Dgermánik</Name>
+    <Copyright URL="">Copyright © Sean Turley</Copyright>
+    <Author URL="">Sean Turley</Author>
+    <Description
+      URL=""
+    >A keyboard for the Wést Dgermánik orthography, designed to maximise ergonomics and efficiency.</Description>
+    <Version URL="">0.1.0</Version>
+  </Info>
+  <Files>
+    <File>
+      <Name>..\build\west_dgermanik.js</Name>
+      <Description />
+      <CopyLocation>0</CopyLocation>
+      <FileType>.js</FileType>
+    </File>
+    <File>
+      <Name>welcome.htm</Name>
+      <Description />
+      <CopyLocation>0</CopyLocation>
+      <FileType>.htm</FileType>
+    </File>
+    <File>
+      <Name>readme.htm</Name>
+      <Description />
+      <CopyLocation>0</CopyLocation>
+      <FileType>.htm</FileType>
+    </File>
+    <File>
+      <Name>..\LICENSE.md</Name>
+      <Description />
+      <CopyLocation>0</CopyLocation>
+      <FileType>.md</FileType>
+    </File>
+  </Files>
+  <Keyboards>
+    <Keyboard>
+      <Name>Wést Dgermánik</Name>
+      <ID>west_dgermanik</ID>
+      <Version>0.1.0</Version>
+      <Languages>
+        <Language ID="en">English</Language>
+      </Languages>
+    </Keyboard>
+  </Keyboards>
+  <Strings />
+</Package>
