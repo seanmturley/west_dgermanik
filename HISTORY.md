@@ -1,5 +1,9 @@
 # Wést Dgermánik change history
 
+## 0.3.1 (18 Mar 2026)
+
+- Label active "shift" key with the correct "sp" value of "2"
+
 ## 0.3.0 (18 Mar 2026)
 
 - Implement full layout redesign to improve ergonomics and allow a symmetrical layout of flick access to additional symbols
