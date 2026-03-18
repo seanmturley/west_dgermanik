@@ -1,5 +1,9 @@
 # Wést Dgermánik change history
 
+## 0.2.1 (17 Mar 2026)
+
+- Fixed symbol for active "shift" key
+
 ## 0.2.0 (17 Mar 2026)
 
 - Shift layer implemented
