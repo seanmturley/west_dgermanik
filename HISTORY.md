@@ -1,5 +1,9 @@
 # Wést Dgermánik change history
 
+## 0.3.0 (18 Mar 2026)
+
+- Implement full layout redesign to improve ergonomics and allow a symmetrical layout of flick access to additional symbols
+
 ## 0.2.1 (17 Mar 2026)
 
 - Fixed symbol for active "shift" key

@@ -23,7 +23,7 @@
     <Description
       URL=""
     >A keyboard for the Wést Dgermánik orthography, designed to maximise ergonomics and efficiency.</Description>
-    <Version URL="">0.2.1</Version>
+    <Version URL="">0.3.0</Version>
   </Info>
   <Files>
     <File>
@@ -55,7 +55,7 @@
     <Keyboard>
       <Name>Wést Dgermánik</Name>
       <ID>west_dgermanik</ID>
-      <Version>0.2.1</Version>
+      <Version>0.3.0</Version>
       <Languages>
         <Language ID="en">English</Language>
       </Languages>
