@@ -1,5 +1,10 @@
 # Wést Dgermánik change history
 
+## 0.5.0 (20 Mar 2026)
+
+- Added support for "smart-closing symbols"—The only symbol currently implemented in the keyboard is parentheses as a flick on lower-case "g" (added arbitrarily for proof of concept)
+- Tidied some of the default .kmn file
+
 ## 0.4.0 (19 Mar 2026)
 
 - Caps layer implemented

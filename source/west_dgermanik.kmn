@@ -6,7 +6,6 @@ store(&TARGETS) 'mobile tablet web'
 store(&LAYOUTFILE) 'west_dgermanik.keyman-touch-layout'
 
 c Note three entry points, rather than the traditional single entry point
-
 begin Unicode > use(main)
 begin NewContext > use(NewContext)
 begin PostKeystroke > use(PostKeystroke)
@@ -14,12 +13,29 @@ begin PostKeystroke > use(PostKeystroke)
 c This tells Keyman which keys should have casing behavior applied
 store(&CasedKeys) [K_A] .. [K_Z]
 
-c We'll define some useful stores here
-store(key) [K_A] .. [K_Z] [SHIFT K_A] .. [SHIFT K_Z]
-store(out) 'a' .. 'z'     'A' .. 'Z'
+c Global stores
+store(alphaStroke) [K_A] .. [K_Z] [U_00E1] [U_00E9] [U_00F0] [U_00FE] [SHIFT K_A] .. [SHIFT K_Z] [U_00C1] [U_00C9] [U_00D0] [U_00DE]
+store(alphaOut)     'a'  ..  'z'     'á'      'é'      'ð'      'þ'       'A'     ..     'Z'        'Á'      'É'      'Ð'      'Þ'
 
-store(caps) 'A'..'Z'
-store(digit) '0'..'9'
+store(whitespace) ' ' U+00A0 U+000D U+000A U+0009 U+2002 U+2003 U+2004 U+2005 U+2006 U+2007 U+2008 U+2009 U+200A U+202F U+205F
+
+group(smartClosingSymbols) using keys
+    c Intelligently inserts open or close brackets/quotes based on context
+
+    store(openSymbolStroke) [U_0028] [U_005B] [U_007B] [U_2018] [U_201C]
+    store(openSymbolOut)       '('      '['      '{'    U+2018   U+201C
+    store(closeSymbolOut)      ')'      ']'      '}'    U+2019   U+201D
+
+    store(mathOperators) '+-/*'
+
+    c Don't insert closing symbol at the start of a line, after whitespace,
+    c or after certain math operators
+    nul + any(openSymbolStroke) > context index(openSymbolOut, 2)
+    any(whitespace) + any(openSymbolStroke) > context index(openSymbolOut, 2)
+    any(mathOperators) + any(openSymbolStroke) > context index(openSymbolOut, 2)
+
+    c Insert closing symbol anywhere else
+    + any(openSymbolStroke) > index(closeSymbolOut, 1)
 
 group(NewContext) readonly
     c Any time we get a new context, by mouse click, tap,
@@ -29,6 +45,8 @@ group(NewContext) readonly
 
 group(PostKeystroke) readonly
     c We get here after every keystroke and model action is processed
+
+    store(digit) '0'..'9'
 
     c Okay, let's stay on the numeric layer if we are there already
     if(&newLayer = "") if(&layer = 'numeric') any(digit) > context
@@ -54,12 +72,11 @@ group(detectStartOfSentence) readonly
     c If after a tab or the start of a line, use Shift layer
     any(tabAndNewLine) > layer('shift')
 
-    c Common end-of-sentence punctuation and spaces
+    c Common end-of-sentence punctuation
     store(sentencePunctuation) '.?!'
-    store(space) ' ' U+00A0 U+2002 U+2003 U+2004 U+2005 U+2006 U+2007 U+2008 U+2009 U+200A U+202F U+205F
 
-    c If punctuation then a space, use Shift layer
-    any(sentencePunctuation) any(space) > layer('shift')
+    c If end-of-sentence punctuation then whitespace, use Shift layer
+    any(sentencePunctuation) any(whitespace) > layer('shift')
 
     c And because we haven't see any of these situations above, we'll
     c move to the default layer. Note that this effectively drops us
@@ -68,4 +85,5 @@ group(detectStartOfSentence) readonly
     nomatch > layer('default')
 
 group(main) using keys
-    + any(key) > index(out, 1)
+    + any(openSymbolStroke) > use(smartClosingSymbols)
+    + any(alphaStroke) > index(alphaOut, 1)
