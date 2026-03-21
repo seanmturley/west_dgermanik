@@ -1,5 +1,9 @@
 # Wést Dgermánik change history
 
+## 0.6.0 (21 Mar 2026)
+
+- Added symbols via flick keys to the default layer
+
 ## 0.5.0 (20 Mar 2026)
 
 - Added support for "smart-closing symbols"—The only symbol currently implemented in the keyboard is parentheses as a flick on lower-case "g" (added arbitrarily for proof of concept)
