@@ -1,5 +1,9 @@
 # Wést Dgermánik change history
 
+## 0.7.0 (22 Mar 2026)
+
+- Added symbols via flick keys to the shift and caps layers
+
 ## 0.6.0 (21 Mar 2026)
 
 - Added symbols via flick keys to the default layer

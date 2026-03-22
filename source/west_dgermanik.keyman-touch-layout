@@ -226,7 +226,6 @@
                   }
                 }
               },
-
               {
                 "text": "p",
                 "id": "K_P",
@@ -508,15 +507,36 @@
               },
               {
                 "text": "G",
-                "id": "K_G"
+                "id": "K_G",
+                "hint": "“ ”",
+                "flick": {
+                  "s": {
+                    "text": "“ ”",
+                    "id": "U_201C"
+                  }
+                }
               },
               {
                 "text": "S",
-                "id": "K_S"
+                "id": "K_S",
+                "hint": "[ ]",
+                "flick": {
+                  "s": {
+                    "text": "[ ]",
+                    "id": "U_005B"
+                  }
+                }
               },
               {
                 "text": "Á",
-                "id": "U_00C1"
+                "id": "U_00C1",
+                "hint": "( )",
+                "flick": {
+                  "s": {
+                    "text": "( )",
+                    "id": "U_0028"
+                  }
+                }
               },
               {
                 "text": "K",
@@ -553,6 +573,13 @@
               {
                 "text": "J",
                 "id": "K_J",
+                "hint": "$",
+                "flick": {
+                  "s": {
+                    "text": "$",
+                    "id": "U_0024"
+                  }
+                },
                 "sk": [
                   {
                     "text": "Y",
@@ -562,11 +589,25 @@
               },
               {
                 "text": "R",
-                "id": "K_R"
+                "id": "K_R",
+                "hint": "|",
+                "flick": {
+                  "s": {
+                    "text": "|",
+                    "id": "U_007C"
+                  }
+                }
               },
               {
                 "text": "P",
-                "id": "K_P"
+                "id": "K_P",
+                "hint": "?",
+                "flick": {
+                  "s": {
+                    "text": "?",
+                    "id": "U_003F"
+                  }
+                }
               },
               {
                 "text": ".",
@@ -593,32 +634,80 @@
               },
               {
                 "text": "A",
-                "id": "K_A"
+                "id": "K_A",
+                "hint": "+",
+                "flick": {
+                  "s": {
+                    "text": "+",
+                    "id": "U_002B"
+                  }
+                }
               },
               {
                 "text": "U",
-                "id": "K_U"
+                "id": "K_U",
+                "hint": "-",
+                "flick": {
+                  "s": {
+                    "text": "-",
+                    "id": "U_002D"
+                  }
+                }
               },
               {
                 "text": "O",
-                "id": "K_O"
+                "id": "K_O",
+                "hint": "*",
+                "flick": {
+                  "s": {
+                    "text": "*",
+                    "id": "U_002A"
+                  }
+                }
               },
               {
                 "text": "D",
-                "id": "K_D"
+                "id": "K_D",
+                "hint": "/",
+                "flick": {
+                  "s": {
+                    "text": "/",
+                    "id": "U_002F"
+                  }
+                }
               },
-
               {
                 "text": "W",
-                "id": "K_W"
+                "id": "K_W",
+                "hint": "=",
+                "flick": {
+                  "s": {
+                    "text": "=",
+                    "id": "U_003D"
+                  }
+                }
               },
               {
                 "text": "H",
-                "id": "K_H"
+                "id": "K_H",
+                "hint": "\\",
+                "flick": {
+                  "s": {
+                    "text": "\\",
+                    "id": "U_005C"
+                  }
+                }
               },
               {
                 "text": "B",
-                "id": "K_B"
+                "id": "K_B",
+                "hint": "%",
+                "flick": {
+                  "s": {
+                    "text": "%",
+                    "id": "U_0025"
+                  }
+                }
               },
               {
                 "text": "*BkSp*",
@@ -789,15 +878,36 @@
               },
               {
                 "text": "G",
-                "id": "K_G"
+                "id": "K_G",
+                "hint": "“ ”",
+                "flick": {
+                  "s": {
+                    "text": "“ ”",
+                    "id": "U_201C"
+                  }
+                }
               },
               {
                 "text": "S",
-                "id": "K_S"
+                "id": "K_S",
+                "hint": "[ ]",
+                "flick": {
+                  "s": {
+                    "text": "[ ]",
+                    "id": "U_005B"
+                  }
+                }
               },
               {
                 "text": "Á",
-                "id": "U_00C1"
+                "id": "U_00C1",
+                "hint": "( )",
+                "flick": {
+                  "s": {
+                    "text": "( )",
+                    "id": "U_0028"
+                  }
+                }
               },
               {
                 "text": "K",
@@ -834,6 +944,13 @@
               {
                 "text": "J",
                 "id": "K_J",
+                "hint": "$",
+                "flick": {
+                  "s": {
+                    "text": "$",
+                    "id": "U_0024"
+                  }
+                },
                 "sk": [
                   {
                     "text": "Y",
@@ -843,11 +960,25 @@
               },
               {
                 "text": "R",
-                "id": "K_R"
+                "id": "K_R",
+                "hint": "|",
+                "flick": {
+                  "s": {
+                    "text": "|",
+                    "id": "U_007C"
+                  }
+                }
               },
               {
                 "text": "P",
-                "id": "K_P"
+                "id": "K_P",
+                "hint": "?",
+                "flick": {
+                  "s": {
+                    "text": "?",
+                    "id": "U_003F"
+                  }
+                }
               },
               {
                 "text": ".",
@@ -874,32 +1005,81 @@
               },
               {
                 "text": "A",
-                "id": "K_A"
+                "id": "K_A",
+                "hint": "+",
+                "flick": {
+                  "s": {
+                    "text": "+",
+                    "id": "U_002B"
+                  }
+                }
               },
               {
                 "text": "U",
-                "id": "K_U"
+                "id": "K_U",
+                "hint": "-",
+                "flick": {
+                  "s": {
+                    "text": "-",
+                    "id": "U_002D"
+                  }
+                }
               },
               {
                 "text": "O",
-                "id": "K_O"
+                "id": "K_O",
+                "hint": "*",
+                "flick": {
+                  "s": {
+                    "text": "*",
+                    "id": "U_002A"
+                  }
+                }
               },
               {
                 "text": "D",
-                "id": "K_D"
+                "id": "K_D",
+                "hint": "/",
+                "flick": {
+                  "s": {
+                    "text": "/",
+                    "id": "U_002F"
+                  }
+                }
               },
 
               {
                 "text": "W",
-                "id": "K_W"
+                "id": "K_W",
+                "hint": "=",
+                "flick": {
+                  "s": {
+                    "text": "=",
+                    "id": "U_003D"
+                  }
+                }
               },
               {
                 "text": "H",
-                "id": "K_H"
+                "id": "K_H",
+                "hint": "\\",
+                "flick": {
+                  "s": {
+                    "text": "\\",
+                    "id": "U_005C"
+                  }
+                }
               },
               {
                 "text": "B",
-                "id": "K_B"
+                "id": "K_B",
+                "hint": "%",
+                "flick": {
+                  "s": {
+                    "text": "%",
+                    "id": "U_0025"
+                  }
+                }
               },
               {
                 "text": "*BkSp*",
