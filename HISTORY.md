@@ -1,5 +1,9 @@
 # Wést Dgermánik change history
 
+## 0.7.1 (23 Mar 2026)
+
+- Fixed smart-closing symbols when shift is activated
+
 ## 0.7.0 (22 Mar 2026)
 
 - Added symbols via flick keys to the shift and caps layers

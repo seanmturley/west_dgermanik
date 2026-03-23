@@ -1,7 +1,7 @@
 store(&VERSION) '17.0'
 store(&NAME) 'Wést Dgermánik'
 store(&COPYRIGHT) 'Copyright © Sean Turley'
-store(&KEYBOARDVERSION) '0.7.0'
+store(&KEYBOARDVERSION) '0.7.1'
 store(&TARGETS) 'mobile tablet web'
 store(&LAYOUTFILE) 'west_dgermanik.keyman-touch-layout'
 
@@ -22,9 +22,9 @@ store(whitespace) ' ' U+00A0 U+000D U+000A U+0009 U+2002 U+2003 U+2004 U+2005 U+
 group(smartClosingSymbols) using keys
     c Intelligently inserts open or close brackets/quotes based on context
 
-    store(openSymbolStroke) [U_0028] [U_005B] [U_007B] [U_2018] [U_201C]
-    store(openSymbolOut)       '('      '['      '{'    U+2018   U+201C
-    store(closeSymbolOut)      ')'      ']'      '}'    U+2019   U+201D
+    store(openSymbolStroke) [U_0028] [U_005B] [U_007B] [U_2018] [U_201C] [SHIFT U_0028] [SHIFT U_005B] [SHIFT U_007B] [SHIFT U_2018] [SHIFT U_201C]
+    store(openSymbolOut)       '('      '['      '{'    U+2018   U+201C        '('            '['            '{'          U+2018         U+201C
+    store(closeSymbolOut)      ')'      ']'      '}'    U+2019   U+201D        ')'            ']'            '}'          U+2019         U+201D
 
     store(mathOperators) '+-/*'
 
