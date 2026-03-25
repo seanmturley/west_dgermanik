@@ -1,5 +1,9 @@
 # Wést Dgermánik change history
 
+## 0.9.0 (25 Mar 2026)
+
+- Added exponents and fractions to the numeric layer via long press keys
+
 ## 0.8.0 (24 Mar 2026)
 
 - Added numeric layer including additional symbols via flick keys 
