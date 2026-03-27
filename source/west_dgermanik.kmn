@@ -1,7 +1,7 @@
 store(&VERSION) '17.0'
 store(&NAME) 'Wést Dgermánik'
 store(&COPYRIGHT) 'Copyright © Sean Turley'
-store(&KEYBOARDVERSION) '0.10.0'
+store(&KEYBOARDVERSION) '0.10.1'
 store(&TARGETS) 'mobile tablet web'
 store(&LAYOUTFILE) 'west_dgermanik.keyman-touch-layout'
 
@@ -29,9 +29,11 @@ group(smartClosingSymbols) using keys
     store(mathOperators) '+-/*'
 
     c Don't insert closing symbol at the start of a line, after whitespace,
-    c or after certain math operators
+    c directly after an openSymbolOut (to allow nesting), or after certain
+    c math operators
     nul + any(openSymbolStroke) > context index(openSymbolOut, 2)
     any(whitespace) + any(openSymbolStroke) > context index(openSymbolOut, 2)
+    any(openSymbolOut) + any(openSymbolStroke) > context index(openSymbolOut, 2)
     any(mathOperators) + any(openSymbolStroke) > context index(openSymbolOut, 2)
 
     c Insert closing symbol anywhere else

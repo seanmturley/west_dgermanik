@@ -1,5 +1,9 @@
 # Wést Dgermánik change history
 
+## 0.10.1 (27 Mar 2026)
+
+- Disabled smart-closing symbols directly after an open symbol so that nesting is now possible
+
 ## 0.10.0 (26 Mar 2026)
 
 - Added exponents and fractions to the default, shift, and caps layers via long press keys
