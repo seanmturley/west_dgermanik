@@ -1,5 +1,9 @@
 # Wést Dgermánik change history
 
+## 0.10.2 (28 Mar 2026)
+
+- Added "|" to the list of end-of-sentence punctuation (automatically triggering the shift layer at the start of the following sentence)
+
 ## 0.10.1 (27 Mar 2026)
 
 - Disabled smart-closing symbols directly after an open symbol so that nesting is now possible
