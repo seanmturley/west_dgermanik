@@ -480,10 +480,10 @@
             "id": 4,
             "key": [
               {
-                "text": "*123*",
-                "id": "K_NUMLOCK",
+                "text": "*Symbol*",
+                "id": "K_SYMBOLS",
                 "sp": 1,
-                "nextlayer": "numeric"
+                "nextlayer": "symbol"
               },
               {
                 "text": "*Menu*",
@@ -983,10 +983,10 @@
             "id": 4,
             "key": [
               {
-                "text": "*123*",
-                "id": "K_NUMLOCK",
+                "text": "*Symbol*",
+                "id": "K_SYMBOLS",
                 "sp": 1,
-                "nextlayer": "numeric"
+                "nextlayer": "symbol"
               },
               {
                 "text": "*Menu*",
@@ -1487,10 +1487,10 @@
             "id": 4,
             "key": [
               {
-                "text": "*123*",
-                "id": "K_NUMLOCK",
+                "text": "*Symbol*",
+                "id": "K_SYMBOLS",
                 "sp": 1,
-                "nextlayer": "numeric"
+                "nextlayer": "symbol"
               },
               {
                 "text": "*Menu*",
@@ -1512,7 +1512,7 @@
         ]
       },
       {
-        "id": "numeric",
+        "id": "symbol",
         "row": [
           {
             "id": 1,
