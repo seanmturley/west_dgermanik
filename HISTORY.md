@@ -1,5 +1,9 @@
 # Wést Dgermánik change history
 
+## 0.10.4 (2 Apr 2026)
+
+- Reworked alpha handling to use custom key codes and make full use of the &CasedKeys store
+
 ## 0.10.3 (29 Mar 2026)
 
 - Change "numeric" layer to "symbol" layer, as this more accurately reflects its function

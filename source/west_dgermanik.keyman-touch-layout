@@ -137,7 +137,7 @@
               },
               {
                 "text": "é",
-                "id": "U_00E9",
+                "id": "T_DRESS",
                 "hint": "5",
                 "flick": {
                   "s": {
@@ -289,7 +289,7 @@
               },
               {
                 "text": "á",
-                "id": "U_00E1",
+                "id": "T_TRAP",
                 "hint": "( )",
                 "flick": {
                   "s": {
@@ -321,12 +321,12 @@
               },
               {
                 "text": "ð",
-                "id": "U_00F0",
+                "id": "T_EDH",
                 "hint": "þ",
                 "flick": {
                   "s": {
                     "text": "þ",
-                    "id": "U_00FE"
+                    "id": "T_THORN"
                   }
                 }
               },
@@ -640,7 +640,7 @@
               },
               {
                 "text": "É",
-                "id": "U_00C9",
+                "id": "T_DRESS",
                 "hint": "5",
                 "flick": {
                   "s": {
@@ -792,7 +792,7 @@
               },
               {
                 "text": "Á",
-                "id": "U_00C1",
+                "id": "T_TRAP",
                 "hint": "( )",
                 "flick": {
                   "s": {
@@ -824,12 +824,12 @@
               },
               {
                 "text": "Ð",
-                "id": "U_00D0",
+                "id": "T_EDH",
                 "hint": "Þ",
                 "flick": {
                   "s": {
                     "text": "Þ",
-                    "id": "U_00DE"
+                    "id": "T_THORN"
                   }
                 }
               },
@@ -1143,7 +1143,7 @@
               },
               {
                 "text": "É",
-                "id": "U_00C9",
+                "id": "T_DRESS",
                 "hint": "5",
                 "flick": {
                   "s": {
@@ -1295,7 +1295,7 @@
               },
               {
                 "text": "Á",
-                "id": "U_00C1",
+                "id": "T_TRAP",
                 "hint": "( )",
                 "flick": {
                   "s": {
@@ -1327,12 +1327,12 @@
               },
               {
                 "text": "Ð",
-                "id": "U_00D0",
+                "id": "T_EDH",
                 "hint": "Þ",
                 "flick": {
                   "s": {
                     "text": "Þ",
-                    "id": "U_00DE"
+                    "id": "T_THORN"
                   }
                 }
               },
