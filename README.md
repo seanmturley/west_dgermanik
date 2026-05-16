@@ -1,8 +1,8 @@
-# Wést Dgermánik keyboard
+# Wëst Dgermänik keyboard
 
 ## Description
 
-A keyboard for the Wést Dgermánik orthography, designed to maximise ergonomics and efficiency.
+A keyboard for the Wëst Dgermänik orthography, designed to maximise ergonomics and efficiency.
 
 ## Links
 

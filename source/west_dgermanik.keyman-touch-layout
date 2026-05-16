@@ -136,7 +136,7 @@
                 ]
               },
               {
-                "text": "é",
+                "text": "ë",
                 "id": "T_DRESS",
                 "hint": "5",
                 "flick": {
@@ -288,7 +288,7 @@
                 }
               },
               {
-                "text": "á",
+                "text": "ä",
                 "id": "T_TRAP",
                 "hint": "( )",
                 "flick": {
@@ -639,7 +639,7 @@
                 ]
               },
               {
-                "text": "É",
+                "text": "Ë",
                 "id": "T_DRESS",
                 "hint": "5",
                 "flick": {
@@ -791,7 +791,7 @@
                 }
               },
               {
-                "text": "Á",
+                "text": "Ä",
                 "id": "T_TRAP",
                 "hint": "( )",
                 "flick": {
@@ -1142,7 +1142,7 @@
                 ]
               },
               {
-                "text": "É",
+                "text": "Ë",
                 "id": "T_DRESS",
                 "hint": "5",
                 "flick": {
@@ -1294,7 +1294,7 @@
                 }
               },
               {
-                "text": "Á",
+                "text": "Ä",
                 "id": "T_TRAP",
                 "hint": "( )",
                 "flick": {

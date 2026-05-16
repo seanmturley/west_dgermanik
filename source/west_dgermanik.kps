@@ -17,13 +17,13 @@
     <Items />
   </StartMenu>
   <Info>
-    <Name URL="">Wést Dgermánik</Name>
+    <Name URL="">Wëst Dgermänik</Name>
     <Copyright URL="">Copyright © Sean Turley</Copyright>
     <Author URL="">Sean Turley</Author>
     <Description
       URL=""
-    >A keyboard for the Wést Dgermánik orthography, designed to maximise ergonomics and efficiency.</Description>
-    <Version URL="">0.10.4</Version>
+    >A keyboard for the Wëst Dgermänik orthography, designed to maximise ergonomics and efficiency.</Description>
+    <Version URL="">0.11.0</Version>
   </Info>
   <Files>
     <File>
@@ -53,9 +53,9 @@
   </Files>
   <Keyboards>
     <Keyboard>
-      <Name>Wést Dgermánik</Name>
+      <Name>Wëst Dgermänik</Name>
       <ID>west_dgermanik</ID>
-      <Version>0.10.4</Version>
+      <Version>0.11.0</Version>
       <Languages>
         <Language ID="en">English</Language>
       </Languages>

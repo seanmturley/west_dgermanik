@@ -1,4 +1,8 @@
-# Wést Dgermánik change history
+# Wëst Dgermänik change history
+
+## 0.11.0 (16 May 2026)
+
+- Replaced acute accents with the more "Germanic" umlauts i.e. á & é -> ä & ë
 
 ## 0.10.4 (2 Apr 2026)
 
@@ -6,7 +10,7 @@
 
 ## 0.10.3 (29 Mar 2026)
 
-- Change "numeric" layer to "symbol" layer, as this more accurately reflects its function
+- Changed "numeric" layer to "symbol" layer, as this more accurately reflects its function
 
 ## 0.10.2 (28 Mar 2026)
 
