@@ -1,5 +1,9 @@
 # Wëst Dgermänik change history
 
+## 0.12.0 (16 May 2026)
+
+- Changed position of A, Ä, U, G, and Z to reflect frequency changes from the new vowel grouping introduced in Wëst Dgermänik orthography v3
+
 ## 0.11.0 (16 May 2026)
 
 - Replaced acute accents with the more "Germanic" umlauts i.e. á & é -> ä & ë

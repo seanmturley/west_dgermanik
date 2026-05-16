@@ -61,8 +61,8 @@
                 ]
               },
               {
-                "text": "z",
-                "id": "K_Z",
+                "text": "u",
+                "id": "K_U",
                 "hint": "2",
                 "flick": {
                   "s": {
@@ -266,8 +266,8 @@
                 }
               },
               {
-                "text": "g",
-                "id": "K_G",
+                "text": "ä",
+                "id": "T_TRAP",
                 "hint": "“ ”",
                 "flick": {
                   "s": {
@@ -288,8 +288,8 @@
                 }
               },
               {
-                "text": "ä",
-                "id": "T_TRAP",
+                "text": "a",
+                "id": "K_A",
                 "hint": "( )",
                 "flick": {
                   "s": {
@@ -393,8 +393,8 @@
                 "sp": 1
               },
               {
-                "text": "a",
-                "id": "K_A",
+                "text": "g",
+                "id": "K_G",
                 "hint": "+",
                 "flick": {
                   "s": {
@@ -404,8 +404,8 @@
                 }
               },
               {
-                "text": "u",
-                "id": "K_U",
+                "text": "z",
+                "id": "K_Z",
                 "hint": "-",
                 "flick": {
                   "s": {
@@ -564,8 +564,8 @@
                 ]
               },
               {
-                "text": "Z",
-                "id": "K_Z",
+                "text": "U",
+                "id": "K_U",
                 "hint": "2",
                 "flick": {
                   "s": {
@@ -769,8 +769,8 @@
                 }
               },
               {
-                "text": "G",
-                "id": "K_G",
+                "text": "Ä",
+                "id": "T_TRAP",
                 "hint": "“ ”",
                 "flick": {
                   "s": {
@@ -791,8 +791,8 @@
                 }
               },
               {
-                "text": "Ä",
-                "id": "T_TRAP",
+                "text": "A",
+                "id": "K_A",
                 "hint": "( )",
                 "flick": {
                   "s": {
@@ -896,8 +896,8 @@
                 "sp": 2
               },
               {
-                "text": "A",
-                "id": "K_A",
+                "text": "G",
+                "id": "K_G",
                 "hint": "+",
                 "flick": {
                   "s": {
@@ -907,8 +907,8 @@
                 }
               },
               {
-                "text": "U",
-                "id": "K_U",
+                "text": "Z",
+                "id": "K_Z",
                 "hint": "-",
                 "flick": {
                   "s": {
@@ -1067,8 +1067,8 @@
                 ]
               },
               {
-                "text": "Z",
-                "id": "K_Z",
+                "text": "U",
+                "id": "K_U",
                 "hint": "2",
                 "flick": {
                   "s": {
@@ -1272,8 +1272,8 @@
                 }
               },
               {
-                "text": "G",
-                "id": "K_G",
+                "text": "Ä",
+                "id": "T_TRAP",
                 "hint": "“ ”",
                 "flick": {
                   "s": {
@@ -1294,8 +1294,8 @@
                 }
               },
               {
-                "text": "Ä",
-                "id": "T_TRAP",
+                "text": "A",
+                "id": "K_A",
                 "hint": "( )",
                 "flick": {
                   "s": {
@@ -1399,8 +1399,8 @@
                 "sp": 2
               },
               {
-                "text": "A",
-                "id": "K_A",
+                "text": "G",
+                "id": "K_G",
                 "hint": "+",
                 "flick": {
                   "s": {
@@ -1410,8 +1410,8 @@
                 }
               },
               {
-                "text": "U",
-                "id": "K_U",
+                "text": "Z",
+                "id": "K_Z",
                 "hint": "-",
                 "flick": {
                   "s": {
